@@ -1,0 +1,70 @@
+{
+  "questionData" : [
+    {
+      "questions" : "During your most recent purchase, how did you contact us?",
+      "answers" : [
+        {
+          "ans" : "In Person"
+        }
+      ]
+    },
+    {
+      "questions" : "Tell  me about cupidatat exercitation qui veniam,",
+      "answers" : [
+        {
+          "ans" : "laboresintdolorinmagnaut"
+        },
+        {
+          "ans" : "idExcepteurproidentfugiatipsumExcepteur"
+        },
+        {
+          "ans" : "doanimelitfugiatullamcocillum"
+        }
+      ]
+    },
+    {
+      "questions" : "How do culpa Duis",
+      "answers" : [
+        {
+          "ans" : "suntestdoloreucillum"
+        },
+        {
+          "ans" : "quisametminimdoloreametlabore"
+        },
+        {
+          "ans" : "adsinteuirureutvelit"
+        }
+      ]
+    },
+    {
+      "questions" : "Who do cupidatat ut nisi ut magna",
+      "answers" : [
+        {
+          "ans" : "eaincididuntfugiatametad"
+        }
+      ]
+    },
+    {
+        "questions" : "How nostrud in id reprehenderit Excepteur ex in cupidatat et mollit ut culption",
+      "answers" : [
+        {
+          "ans" : "laborisinaliquamollittempor"
+        },
+        {
+          "ans" : "ipsumtemporeadeseruntconsequat"
+        }
+      ]
+    },
+    {
+      "questions" : "When tempor Lorem dolor",
+      "answers" : [
+        {
+          "ans" : "cillumsintquisadipisicinglaborumofficia"
+        },
+        {
+          "ans" : "irurenondoloresitullamcoconsectetur"
+        }
+      ]
+    }
+  ]
+}

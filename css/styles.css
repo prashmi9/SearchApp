@@ -1,0 +1,225 @@
+/* -- custom css for Bootstrap 3.x --*/
+
+/* move special fonts to HTML head for better performance */
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family:Arial,sans-serif;
+}
+
+/* fix bs3 horizontal scrollbar bug */
+.row { margin: 0; padding: 0 }
+
+
+/* use special fonts in certain elements */
+h1,h2,h3,h4,.lead,.btn,.navbar a {
+  text-transform:uppercase;
+
+  letter-spacing:2px;
+}
+
+h1 {
+  font-size:50px;
+}
+
+.icon-bar {
+   background-color:#fff;
+}
+
+.scroll-down a, .scroll-top a {
+   color:#ffffff;
+}
+
+.scroll-down {
+   position:fixed;
+   bottom:20%;
+   right:0%;
+   color:#f9f9f9;
+}
+
+.scroll-top {
+  background-color:#dbdbdb;
+}
+
+.vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:4%;
+  text-align:center;
+}
+
+.header .btn-lg {
+   font-size:28px;
+   border-color:#eeeeee;
+   padding:15px;
+   background-color:transparent;
+   color:#ffffff;
+}
+
+.header .btn-lg:hover {
+   background-color:#eeeeee;
+   color:#777777;
+}
+
+.navbar a {
+  color:#fff;
+  font-size:14px;
+}
+
+.navbar-bold.affix {
+  background-color:#d46054;
+}
+
+.navbar-bold {
+  background-color:#f68076;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.navbar-bold li a:hover, .navbar-bold li.active {
+  background-color:#d46054;
+}
+
+    
+.header h1 {
+  font-size:80px;
+  -webkit-text-stroke: 1px rgba(f,f,f,0.1);
+  color:#ffffff;
+  line-height:100px;
+  text-transform:uppercase;
+  margin: 20px 0 0 -5px;
+}
+
+.header .lead {
+  color:#d46054;
+  font-size:25px;
+}
+
+.header {
+  height: 43%;
+   margin-top: 30px;
+  padding: 10px;
+  background: #f68076 url('../images/pt_topo_l.png') repeat center center fixed;
+}
+
+/* use alt in navbar and header for different color */
+
+.alt {
+  background-color: #6E28C9;
+}
+
+.alt .lead {
+  color: #DED7EA;
+}
+
+.alt.affix {
+  background-color:#4C06AB;
+}
+
+.alt li a:hover, .alt li.active {
+  background-color:#5D17BA;
+}
+
+
+
+.blurb {
+  padding: 20px 0;
+  background-color:#fefefe;
+}
+
+.blurb .panel {
+  background-color:transparent;
+}
+
+.bright {
+  background: #dbdbdb url('../images/pt_topo_l.png') repeat center center fixed;
+  color:#777;
+}
+
+.featurette {
+  background: #222334;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+
+.callout {
+  color: #ffffff;
+  padding-top:7%;
+  height: 100%;
+  width: 100%;
+  background: url('../images/bg_suburb.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.gallery {
+  padding: 50px 0;
+}
+
+.call-to-action {
+  background: #eeeeee;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+footer {
+  padding: 100px 0;
+}
+
+/* -- end custom css for Bootstrap 3.x --*/
+
+.lbl-search{text-indent:-9999px; overflow:hidden;}
+#search{
+ // width:50%;
+  //height:50px;
+  //padding:10px 15px;
+}
+
+.show-all .custom-btn{
+  color:#ffffff;
+  background:none;
+  border:none;
+  outline:none;
+}
+.show-all .custom-btn:hover, .show-all .custom-btn:focus{
+      text-decoration: underline;
+  }
+
+  .webResult p{
+    font-size:18px;
+  }
+
+#remote .input-group, #remote  .input-group.input-group-btn{
+    width:60%;
+  }
+
+  #clearAll{
+  color:#ffffff;
+  }
