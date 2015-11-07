@@ -1,3 +1,3 @@
-# Tutorial
+# Search App
 
-This is my tutorial repository.
+This is my search app repository. Can search a string from JSON.
